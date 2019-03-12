@@ -8,5 +8,12 @@ public class EncryptString {
 
     Scanner input = new Scanner(System.in);
 
+    // encrypt method
+    public char encrypt(int index) {
+
+        return inputString.charAt(index);
     
+    }// end method encrypt
+
+        
 }// end class EncryptString
