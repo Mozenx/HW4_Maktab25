@@ -52,5 +52,11 @@ public class EncryptString {
         this.inputInt = input.nextInt();
     }// end method getCode
 
+    //main method
+    public static void main(String[] args) {
+        EncryptString str = new EncryptString();
+        str.encryptAll();
+    }// end of main method
+
         
 }// end class EncryptString
