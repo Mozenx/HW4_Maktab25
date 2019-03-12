@@ -1,6 +1,14 @@
 package Q2;
 
 public class FromLetterWriter {
+    // main method
+    public static void main(String[] args) {
+        displaySalutation("Morad");
+        businessLetter();
+
+        displaySalutation("Morad","Ghanbari");
+        businessLetter();
+    } //end method main
 
     //displaySalutation method
     public static void displaySalutation (String lastName){
