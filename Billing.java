@@ -5,6 +5,14 @@ public class Billing {
     private static int off;
     private static int totalDue;
 
+    // main method
+    public static void main(String[] args) {
+        System.out.println("computeBill with one parameter: \n" + "Total Due: " + computeBill(100)+ "\n");
+        System.out.println("computeBill with two parameter: \n" + "Total Due: " + computeBill(100, 2)+ "\n");
+        System.out.println("computeBill with three parameter: \n" + "Total Due: " +
+                computeBill(100, 2, 10)+ "\n");
+    }// end of main
+
     // computeBill method by one parameter
     public static int computeBill(int price){
         // calculate tax
