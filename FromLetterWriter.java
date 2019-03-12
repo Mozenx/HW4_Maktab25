@@ -11,5 +11,10 @@ public class FromLetterWriter {
     public static void displaySalutation (String firstName, String lastName){
         System.out.println("Dear " + firstName + " " +lastName);
     }
+
+    // businessLetter method
+    public static void businessLetter (){
+        System.out.println("Thank you for your recent order.\n");
+    }
     
 }// end class FromLetterWriter
