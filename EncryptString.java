@@ -40,5 +40,17 @@ public class EncryptString {
 
     }// end method encryptAll
 
+    // getMessage method
+    public void getMessage() {
+        System.out.println("Enter your String: ");
+        this.inputString = input.nextLine();
+    }// end method getMessage
+
+    //getCode
+    public void getCode() {
+        System.out.println("Enter your number: ");
+        this.inputInt = input.nextInt();
+    }// end method getCode
+
         
 }// end class EncryptString
