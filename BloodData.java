@@ -26,5 +26,15 @@ public class BloodData {
         return bloodType;
     }
 
+    //setter for rhFactor
+    public void setRhFactor(char rhFactor) {
+        this.rhFactor = rhFactor;
+    }
+
+    //getter for rhFactor
+    public char getRhFactor() {
+        return rhFactor;
+    }
+
     
 }// end class BloodData
