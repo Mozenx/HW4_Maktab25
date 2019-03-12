@@ -19,4 +19,19 @@ public class Patient {
         this.bloodData = new BloodData(bloodType, rhFactor);
     }
 
+    //getter for idNumber
+    public int getIdNumber() {
+        return idNumber;
+    }
+
+    //getter for age
+    public int getAge() {
+        return age;
+    }
+
+    //getter for bloodData
+    public BloodData getBloodData() {
+        return bloodData;
+    }
+
 }// end Patient class
